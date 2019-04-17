@@ -4,7 +4,9 @@
   "description": "A modern ES6 Gulp workflow combined with Webpack",
   "scripts": {
     "dev": "gulp --require @babel/register --gulpfile tasks",
-    "build": "gulp build --require @babel/register --gulpfile tasks"
+    "build": "gulp build --require @babel/register --gulpfile tasks",
+    "react_dev": "gulp react_dev --require @babel/register --gulpfile tasks",
+    "react_build": "gulp react_build --require @babel/register --gulpfile tasks"
   },
   "repository": {
     "type": "git",
